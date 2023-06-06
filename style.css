@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+h1 {
+    font-size: 48px;
+    text-transform: uppercase;
+    text-decoration: solid;
+    text-align: center;
+}
+
+nav a:link {
+    color:brown;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+nav a:visited {
+    color: blueviolet;
+}
+
+nav a:hover {
+    color: chocolate;
+    font-style: italic;
+    text-decoration: underline chocolate;
+}
+
+nav a:active {
+    color: aqua;
+    text-decoration: underline aqua;
+}
