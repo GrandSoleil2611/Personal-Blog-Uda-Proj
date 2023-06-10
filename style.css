@@ -162,6 +162,12 @@ li a:active {
     gap: 20px;
 }
 
-.container-relatePost {
+.aside-container {
     align-self: flex-start;
 }
+
+@media (max-width: 800px) {
+    .main-container {
+      flex-direction: column;
+    }
+  }
